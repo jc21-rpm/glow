@@ -3,7 +3,7 @@
 %global gh_user charmbracelet
 
 Name:           glow
-Version:        1.1.0
+Version:        1.2.0
 Release:        1%{?dist}
 Summary:        Render markdown on the CLI, with pizzazz!
 Group:          Applications/System
@@ -34,6 +34,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Sun Nov 22 2020 Jamie Curnow <jc@jc21.com> 1.2.0-1
+- https://github.com/charmbracelet/glow/releases/tag/v1.2.0
+
 * Wed Oct 28 2020 Jamie Curnow <jc@jc21.com> 1.1.0-1
 - https://github.com/charmbracelet/glow/releases/tag/v1.1.0
 

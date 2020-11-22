@@ -2,6 +2,6 @@
   "publish": {
     "PACKAGE": "glow",
     "GH_USER": "jc21-rpm",
-    "VERSION": "1.1.0"
+    "VERSION": "1.2.0"
   }
 }
