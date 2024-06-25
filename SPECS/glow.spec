@@ -4,7 +4,7 @@
 
 Name:           glow
 Version:        1.5.1
-Release:        1
+Release:        1%{?dist}
 Summary:        Render markdown on the CLI, with pizzazz!
 Group:          Applications/System
 License:        MIT
